@@ -3,3 +3,44 @@
 body{
     background: white;
 }
+/* Resetear márgenes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Establece el diseño de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Color de fondo suave */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Diseño del contenedor */
+.container {
+    background-color: #fff; /* Fondo blanco */
+    padding: 40px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 500px;
+    width: 100%;
+}
+
+/* Título */
+h1 {
+    font-size: 36px;
+    color: #4CAF50; /* Color verde para el título */
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+/* Excusa */
+p {
+    font-size: 20px;
+    color: #333; /* Color oscuro para la excusa */
+    line-height: 1.5;
+}
